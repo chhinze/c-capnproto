@@ -26,6 +26,17 @@ make
 make check
 ```
 
+Or with CMake:
+
+```sh
+git clone https://github.com/opensourcerouting/c-capnproto
+cd c-capnproto
+git submodule update --init --recursive
+mkdir build && cd build
+cmake ..
+make
+```
+
 ## Usage
 
 ### Generating C code from a `.capnp` schema file
