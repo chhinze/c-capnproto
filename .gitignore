@@ -30,3 +30,7 @@ capnpc-c
 c-capnproto.pc
 
 *.tar.gz
+
+
+gtest
+build
